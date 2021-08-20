@@ -9,6 +9,7 @@ Please watch simple video demo:
 "Demo.mp4"
 
 Please input command:
+composer install
 php artisan migrate:fresh --seed
 php artisan serve
 
