@@ -1,3 +1,32 @@
+~Steps for installation~
+Version: Laravel 8
+
+Database: backend_coding_test
+Databse user: root
+Databse pass: 
+
+Please watch simple video demo:
+"Demo.mp4"
+
+Please input command:
+php artisan migrate:fresh --seed
+php artisan serve
+
+
+
+
+
+- Say for example, we need a feature where we can display featured products. How would you go about implementing this feature? (You don't need to write code for this, just describe how would you implement it)
+
+
+The product can be featured by:
+1 calculating the number of user search the product appeared.
+2 The number of user who bought the products within the day/week.
+3 Depending on the cached save on users browser. We can show the products on their interest.
+
+
+
+<!-- 
 # iThinkWeb Backend developer coding test
 
 ## Task
@@ -25,3 +54,5 @@ A product needs to have the following information:
 - Cache the view single product API. You are free to use any cache driver
 - Create automated tests for the APIs
 - Say for example, we need a feature where we can display featured products. How would you go about implementing this feature? (You don't need to write code for this, just describe how would you implement it)
+
+ -->
